@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="agricolapilon.agricolapilon">
+   <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application
+        android:name=".MyFirebaseApp"
+        android:allowBackup="true"
+        android:icon="@drawable/pilon"
+        android:label="Agricola Pilon S.A"
+        android:roundIcon="@drawable/pilon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
